@@ -7,7 +7,7 @@
     <project_license>GPL-3.0</project_license>
     
     <project_group>CuboCore</project_group>
-    <developer_name>CuboCore Team</developer_name>
+    <developer_name>CuboCore Group</developer_name>
     
     <launchable type="desktop-id">org.cubocore.CoreImage.desktop</launchable>
     
@@ -16,11 +16,12 @@
     
     <description>
         <p>
-            CoreImage is a lightweight app based on Qt Framework. This app is a part of CSuite.
+            CoreImage is a lightweight app based on Qt Framework. This app is a part of C Suite.
         </p>
     </description>
     
     <keywords>
+      <keyword>CoreImage</keyword>
       <keyword>Image Viewer</keyword>
       <keyword>CSuite</keyword>
       <keyword>CuboCore</keyword>
@@ -33,16 +34,12 @@
 
     <content_rating type="oars-1.1" />
     <url type="homepage">https://cubocore.org</url>
-    <url type="help">https://gitlab.com/cubocore/coreapps/coreimage/</url>
+    <url type="help">https://gitlab.com/cubocore/coreapps/coreimage/-/blob/master/README.md</url>
     <url type="bugtracker">https://gitlab.com/cubocore/coreapps/coreimage/-/issues</url>
     <url type="contact">https://app.element.io/#/room/#cubocore:matrix.org</url>
     
     <releases>
-        <release version="4.2.0-alpha" date="2021-04-07">
-          <description>
-            <p>Alpha release</p>
-          </description>
-        </release>        
+        <release version="4.2.0-alpha" date="2021-04-07"/>
     </releases>
     
     <provides>
@@ -50,6 +47,21 @@
     </provides>
     
     <screenshots>
-        <screenshot type="default"><image type="source">https://gitlab.com/cubocore/coreapps/coreimage/-/raw/master/coreimage.png</image></screenshot>
+        <screenshot type="default">
+            <caption>CoreImage</caption>
+            <image type="source">https://gitlab.com/cubocore/coreapps/coreimage/-/raw/master/coreimage.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>CoreImage in Gnome</caption>
+            <image type="source">https://gitlab.com/cubocore/wiki/-/raw/master/screenshots/coreimage/coreimage-flatpak-gnome.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>CoreImage in KDE</caption>
+            <image type="source">https://gitlab.com/cubocore/wiki/-/raw/master/screenshots/coreimage/coreimage-flatpak-kde.png</image>
+        </screenshot>
     </screenshots>
+
+    <suggests>
+        <id></id>
+    </suggests>
 </component>
