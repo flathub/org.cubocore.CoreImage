@@ -26,9 +26,9 @@ modules:
       - -DCMAKE_INSTALL_PREFIX=/app
       - -DCMAKE_BUILD_TYPE=Release
     sources:
-      - type: archive
-        url: https://gitlab.com/cubocore/libcprime/-/archive/v4.2.0-alpha/libcprime-v4.2.0-alpha.tar.gz
-        sha256: 32874a03ec5c6c774e7d9b7f3f9c033ec636135e9ea1913d12fb91e8d3f1a33b
+      - type: git
+        url: https://gitlab.com/cubocore/libcprime.git
+        tag: v4.2.0-alpha
   - name: coreimage
     post-install:
       - install -Dp -m 644 org.cubocore.CoreImage.appdata.xml /app/share/appdata/org.cubocore.CoreImage.appdata.xml
@@ -40,6 +40,6 @@ modules:
     sources:
       - type: file
         path: org.cubocore.CoreImage.appdata.xml
-      - type: archive
-        url: https://gitlab.com/cubocore/coreapps/coreimage/-/archive/v4.2.0-alpha/coreimage-v4.2.0-alpha.tar.gz
-        sha256: 8aa240283fa8c26d5bbfdc5868c841a287d2ae0c45ed0443606b9c0112fc5cf3
+      - type: git
+        url: https://gitlab.com/cubocore/coreapps/coreimage.git
+        tag: v4.2.0-alpha
