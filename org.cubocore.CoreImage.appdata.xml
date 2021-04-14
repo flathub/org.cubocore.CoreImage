@@ -23,6 +23,7 @@
     <keywords>
       <keyword>CoreImage</keyword>
       <keyword>Image Viewer</keyword>
+      <keyword>CoreApps</keyword>
       <keyword>CSuite</keyword>
       <keyword>CuboCore</keyword>
     </keywords>
@@ -40,6 +41,7 @@
     
     <releases>
         <release version="4.2.0-alpha" date="2021-04-07"/>
+        <release version="4.2.0" date="2021-04-11"/>
     </releases>
     
     <provides>
