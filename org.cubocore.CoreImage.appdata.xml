@@ -62,8 +62,4 @@
             <image type="source">https://gitlab.com/cubocore/wiki/-/raw/master/screenshots/coreimage/coreimage-flatpak-kde.png</image>
         </screenshot>
     </screenshots>
-
-    <suggests>
-        <id></id>
-    </suggests>
 </component>
