@@ -1,6 +1,6 @@
 app-id: org.cubocore.CoreImage
 runtime: org.kde.Platform
-runtime-version: '5.15'
+runtime-version: '5.15-21.08'
 sdk: org.kde.Sdk
 command: coreimage
 finish-args:
@@ -28,7 +28,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/cubocore/libcprime.git
-        tag: v4.2.0
+        tag: v4.3.0
   - name: coreimage
     post-install:
       - install -Dp -m 644 org.cubocore.CoreImage.appdata.xml /app/share/appdata/org.cubocore.CoreImage.appdata.xml
@@ -42,4 +42,4 @@ modules:
         path: org.cubocore.CoreImage.appdata.xml
       - type: git
         url: https://gitlab.com/cubocore/coreapps/coreimage.git
-        tag: v4.2.0
+        tag: v4.3.0
