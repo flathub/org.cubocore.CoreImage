@@ -11,8 +11,7 @@ finish-args:
   - --share=ipc
   - --socket=wayland
   - --socket=fallback-x11
-  - --filesystem=home # For accessing local config files
-  - --filesystem=host:ro # List all images from host folder read-only
+  - --filesystem=host # For saving edited images and browsing images
   - --talk-name=org.freedesktop.Notifications # Required for notifications
 cleanup:
   - /include
